@@ -27,7 +27,7 @@ button { font: inherit; }
 .navigation { height: 100%; display: flex; justify-content: space-between; align-items: center; }
 .brand { display: inline-flex; gap: 10px; align-items: center; color: var(--green-950); font-family: var(--display); font-size: 17px; font-weight: 800; letter-spacing: -.06em; text-decoration: none; }
 .brand-light { color: #76917f; font-weight: 500; }
-.brand-mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 11px; background: var(--green-900); color: white; font-family: var(--display); font-size: 19px; font-weight: 800; letter-spacing: -.08em; }
+.brand-mark { width: 34px; height: 34px; display: block; border-radius: 8px; object-fit: contain; }
 .nav-links { display: flex; align-items: center; gap: 36px; }
 .nav-links > a { color: #53665a; font-size: 12px; font-weight: 500; text-decoration: none; transition: color .18s; }
 .nav-links > a:hover { color: var(--green-700); }
@@ -119,7 +119,7 @@ button { font: inherit; }
 .visual-backdrop { position: absolute; width: 355px; height: 355px; border-radius: 50%; background: #e8f1e5; }
 .mini-panel { position: relative; z-index: 1; width: 260px; height: 325px; overflow: hidden; border: 1px solid #e1e9df; border-radius: 11px; background: #fff; box-shadow: 0 24px 50px rgba(40,78,50,.12); transform: rotate(-3deg); }
 .mini-panel-top { height: 58px; display: flex; align-items: center; gap: 9px; padding: 0 15px; border-bottom: 1px solid #edf0eb; color: #597061; font-family: var(--display); font-size: 10px; font-weight: 700; }
-.mini-logo { width: 25px; height: 25px; display: grid; place-items: center; border-radius: 8px; background: #214d3d; color: white; font-size: 14px; font-weight: 800; }
+.mini-logo { width: 25px; height: 25px; display: block; border-radius: 6px; object-fit: contain; }
 .mini-plus { width: 18px; height: 18px; display: grid; place-items: center; margin-left: auto; border: 1px solid #e5ebe3; border-radius: 6px; color: #809185; font-weight: 400; }
 .mini-panel-tab { height: 36px; display: flex; align-items: center; gap: 8px; margin: 13px 12px 16px; padding: 0 9px; border: 1px solid #e7ece5; border-radius: 6px; background: #fafbf8; color: #607466; font-size: 9px; }
 .tab-globe { color: #70967b; font-size: 15px; }.tab-x { margin-left: auto; color: #a3ada4; font-size: 14px; }
@@ -152,7 +152,7 @@ button { font: inherit; }
 
 .discover { padding-block: 90px; background: white; }
 .discover-card { position: relative; min-height: 325px; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; padding: 42px 25px; border: 1px solid #e4ede3; border-radius: 12px; background: radial-gradient(ellipse at 50% 120%, #e8f3e6 0, #f8fbf7 60%, #fbfcfa 100%); text-align: center; }
-.discover-mark { width: 34px; height: 34px; display: grid; place-items: center; margin-bottom: 17px; border-radius: 11px; background: var(--green-900); color: white; font-family: var(--display); font-size: 19px; font-weight: 800; }
+.discover-mark { width: 34px; height: 34px; display: block; margin-bottom: 17px; border-radius: 8px; object-fit: contain; }
 .discover .eyebrow { margin-bottom: 11px; }
 .discover h2 { font-size: clamp(32px,4vw,43px); }
 .discover-description { margin: 13px 0 20px; color: var(--body); font-size: 11px; }
@@ -162,7 +162,7 @@ button { font: inherit; }
 
 .site-footer { background: #f7f9f6; }
 .footer-main { min-height: 88px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #e7ece6; }
-.footer-brand { font-size: 14px; }.footer-brand .brand-mark { width: 29px; height: 29px; border-radius: 9px; font-size: 16px; }
+.footer-brand { font-size: 14px; }.footer-brand .brand-mark { width: 29px; height: 29px; border-radius: 7px; }
 .footer-main > p { margin: 0; color: #859187; font-size: 10px; }
 .footer-links { display: flex; gap: 22px; }
 .footer-links a { color: #65746a; font-size: 9px; text-decoration: none; }.footer-links a:hover { color: var(--green-700); }
